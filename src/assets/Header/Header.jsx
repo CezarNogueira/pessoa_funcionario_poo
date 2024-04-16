@@ -1,3 +1,5 @@
+import "./css/header.css";
+
 function Header() {
 
     return(
@@ -6,5 +8,7 @@ function Header() {
                 <h3>Pessoas e Funcionarios</h3>
             </div>
         </div>
-    )
+    );
 }
+
+export default Header;

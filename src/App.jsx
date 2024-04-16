@@ -1,11 +1,13 @@
-import './App.css'
+import './App.css';
+import Header from './assets/Header/Header';
+import Funcionario from './assets/Page';
 
 function App() {
 
   return (
     <div className='container'>
-      <header></header>
-      <main></main>
+      <header><Header/></header>
+      <main><Funcionario/></main>
     </div>
   )
 }

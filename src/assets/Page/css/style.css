@@ -1,0 +1,30 @@
+.funcionario_wrapper {
+    width: 100vw;
+    height: 90vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.styles-form {
+    width: 50%;
+    max-width: 600px;
+    height: 40%;
+    border-radius: 1em;
+
+    background-color: #f7f7f7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.4em;
+}
+
+.styles-form input {
+    padding: 2%;
+    border-radius: 0.4em;
+    border: none;
+}
