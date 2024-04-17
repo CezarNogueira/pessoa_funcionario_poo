@@ -1,13 +1,14 @@
 .header_wrapper {
     width: 100vw;
     height: 10vh;
-    background-color: #f7f7f7;
+    background-color: #1C1B1F;
 
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo-box{
     padding: 2%;
-    color: #202020;
+    color: #762846;
 }
