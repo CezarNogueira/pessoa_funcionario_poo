@@ -5,8 +5,11 @@ class Pessoa {
     }
 
     mostrarDados() {
-        console.log(`Olá, meu nome é ${this.name} e tenho ${this.idade} anos.`)
+        console.log(`Olá, meu nome é ${this.nome} e tenho ${this.idade} anos.`)
     }
 }
 
-module.exports= { Pessoa };
+const Pessoa1 = new Pessoa("Cezar", 20);
+Pessoa1.mostrarDados();
+
+export default Pessoa;
