@@ -14,6 +14,8 @@ function Funcionario() {
             <div className="overlay"></div>
             <form className="styles-form">
 
+                <h2>CADASTRAR</h2>
+
                 <input type="text" value={nome} onChange={(e) => setNome(e.target.value)} placeholder="Digite o Nome"/>
 
                 <input type="text" name="idade" value={idade} onChange={(e) => setIdade(e.target.value)} placeholder="Digite a Idade"/>

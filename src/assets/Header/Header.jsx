@@ -5,7 +5,7 @@ function Header() {
     return(
         <div className="header_wrapper">
             <div className="logo-box">
-                <h2>Employee Registration</h2>
+                <h2>Sistema de Gerenciamento de Funcionarios</h2>
             </div>
         </div>
     );

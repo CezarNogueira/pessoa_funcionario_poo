@@ -27,7 +27,7 @@
     height: 50%;
     border-radius: 1em;
 
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
 
@@ -37,6 +37,11 @@
     align-items: center;
 
     gap: 2%;
+}
+
+.styles-form h2 {
+    padding: 3%;
+    color: #1a1a1a;
 }
 
 .styles-form input {
@@ -63,7 +68,7 @@
     background-color: #1a1a1a;
     color: #AD681D;
     cursor: pointer;
-    transition: box-shadow 0.4s;
+    transition: all 0.4s;
 }
 
 button:hover {
