@@ -22,7 +22,7 @@ function FormCadastro() {
         try {
             e.preventDefault();
 
-            const response = await fetch("./Form", {
+            const response = await fetch("./js/cadastrarPessoa", {
                 method: "POST",
                 body: JSON.stringify(formValores)
             });
